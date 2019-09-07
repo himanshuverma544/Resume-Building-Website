@@ -1,4 +1,4 @@
-1. Install Wamp Server.
+1. Install WampServer.
 2. Paste the Files in www folder.
 3. Open the browser and go to localhost.
 4. From there go to yours folder location.
