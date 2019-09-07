@@ -103,43 +103,43 @@ $result = mysqli_query($conn,$query);
 	   $prosum = unserialize($row["ProfessionalSummary"]);
 ?>
 	   
-  <tr>              <!--Name-->
-    <td> <?php echo("First Name: $name[0]<br>              
+  <tr>                   <!--Name-->
+    <td> <?php echo("    First Name: $name[0]<br>              
 	                 Last Name: $name[1]") ?> </td>
 					 
 					<!--Contact--> 
-    <td> <?php echo("Address: $contact[0]<br>
-	                 City: $contact[1]<br>
+    <td> <?php echo("                    Address: $contact[0]<br>
+	                                 City: $contact[1]<br>
 					 Zip Code: $contact[2]<br>
-	                 Country: $contact[3]<br>
+	                                 Country: $contact[3]<br>
 					 Email: $contact[4]<br>
 					 Mobile No.: $contact[5]") ?> </td>
 					 
 					<!--Education--> 
-    <td><?php echo("<b>Graduation</b><br><br>
-	                      Institute Name: $edu[0]<br>
+    <td><?php echo("                    <b>Graduation</b><br><br>
+	                                      Institute Name: $edu[0]<br>
 					      City: $edu[1]<br>
 					      State: $edu[2]<br>
 					      Field of Study: $edu[3]<br>
 					      Degree: $edu[4]
-					   <br><br><br>
+					      <br><br><br>
 					   
 				 	<b>Schooling</b><br><br>
-				          Institute Name: $edu[5]<br>
-			    	      City: $edu[6]<br>
+				              Institute Name: $edu[5]<br>
+			    	              City: $edu[6]<br>
 					      State: $edu[7]<br>
 					      Field of Study: $edu[8]") ?> </td>
 					   
 					   <!--Skills and Projects-->
     <td><?php echo ("    
-	                      Skill 1: $skills[0]<br>
-                          Skill 2: $skills[1]<br>
+	                                      Skill 1: $skills[0]<br>
+                                              Skill 2: $skills[1]<br>
 					      Skill 3: $skills[2]<br>
 					      Skill 4: $skills[3]<br>
 					      Skill 5: $skills[4]") ?></td>
 						  
     <td><?php echo ("
-                        Project 1: $project[0]<br>
+                                                Project 1: $project[0]<br>
 						Project 2: $project[1]<br>
 						Project 3: $project[2]<br>
 						Project 4: $project[3]<br>
