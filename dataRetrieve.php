@@ -76,7 +76,7 @@ if($conn->connect_error){
 
 /*Fetch or Retrieve Data*/
 
-$query = " SELECT * FROM resume_records limit 1";
+$query = " SELECT * FROM resume_records ORDER BY Id DESC LIMIT 1";
 $result = mysqli_query($conn,$query);
 
 ?>
