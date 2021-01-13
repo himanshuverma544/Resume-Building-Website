@@ -4,3 +4,4 @@
 4. From there go to yours folder location.
 5. Open the Name.php file.
 6. The website will run.
+7. If there doesn't exist a database. Create a database and name it "buildresume" and then create a table "resume_records" and make the required columns and then run it.
